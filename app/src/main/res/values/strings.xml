@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">ExpandableListView-85</string>
+
+
+
+    <string-array name="abbreviations_list_header">
+
+
+        <item>ADK</item>
+        <item>adb</item>
+        <item>Android </item>
+        <item>AOSP</item>
+        <item>ART</item>
+        <item>Baseband or Radio</item>
+        <item>Binary </item>
+        <item>Bloatware</item>
+        <item>BootLoader</item>
+        <item>Boot Loader Unlocked</item>
+        <item>Boot Loop</item>
+        <item>Busybox</item>
+        <item>CDMA GSM</item>
+        <item>COMPCACHE</item>
+        <item>ClockworkMod</item>
+        <item>Dalvik</item>
+        <item>Dalvik Cache</item>
+        <item>DDMS</item>
+        <item>Deep Sleep</item>
+        <item>De odex</item>
+        <item>Dev or Developer</item>
+        <item>Drawable</item>
+        <item>Execute </item>
+        <item>Fastboot</item>
+        <item>Flash Flashing</item>
+        <item>Flash Memory</item>
+        <item>FOTA </item>
+        <item>Kernel</item>
+        <item>Governor</item>
+        <item>Jelly Bean</item>
+        <item>JDK </item>
+        <item>JRE </item>
+        <item>KANG </item>
+        <item>Kit Kat</item>
+        <item>Library</item>
+        <item>Logcat </item>
+        <item>Manifest File</item>
+        <item>Nandroid or Nandroid Backup</item>
+        <item>OEM</item>
+        <item>OpenGL ES</item>
+        <item>Open-Source</item>
+        <item>OS</item>
+        <item>OTA</item>
+        <item>Overclocking</item>
+        <item>RAM</item>
+        <item>Recovery </item>
+        <item>ROM</item>
+        <item>Root</item>
+        <item>Shell or SSH</item>
+        <item>SQLite</item>
+        <item>Stock Android</item>
+        <item>Superuser</item>
+        <item>SWAP</item>
+        <item>Theme</item>
+        <item>TUN TAP</item>
+        <item>Underclocking</item>
+        <item>Undervolting</item>
+        <item>xRecovery</item>
+        <item>Wipe </item>
+        <item>dex</item>
+        <item>sbf</item>
+        <item>tar</item>
+        <item>tgz</item>
+
+
+
+
+
+    </string-array>
+
+
+
+
+    <string-array name="abbreviations_list_child">
+
+        <item>
+            Android Development Kit./n/n What people use to develop anything for the Android such as APPs and ROM
+
+        </item>
+
+        <item> Android Debug Bridge, a command-line debugging application included with the SDK. It provides tools to browse the device, copy tools on the device, forward ports for debugging. If you are developing in Eclipse using the ADT Plugin, adb is integrated into your development environment.  </item>
+        <item>Unveiled on 5 November 2007, Android is a mobile operating system running on the Linux kernel developed by Google.   </item>
+        <item>Android Open System Project, usually you will see this term when referring to a program or ROM. This will mean that the program or ROM was taken from Google does not contain any modifications done by the phone Manufacturer or the phone service provider. This is Android the way Google intended.  </item>
+        <item>successor of Dalvik, a virtual machine  thats part of the Android OS. ART is faster than Dalvik and saves more energy   </item>
+        <item> In communications  signal processing, the baseband describes signals  systems whose range of the frequencies measured from close to 0 hertz to a cut-off frequency, a maximum bandwidth or highest signal frequency; it is sometimes used to describe frequencies starting close to zero </item>
+        <item> a group of executable files. </item>
+        <item>unnecessary features that are not used by end users and come with the phone (like Samsung touchwiz or other APPs) (luckly Moto G is almost a pure/stock android)  </item>
+        <item> In literal terms, boot loader is code that is executed before any Operating System starts to run. The concept of boot loaders is universal to virtually all Operating systems that includes operating systems on your PC, laptop, Smartphone,  other such devices. Boot loaders basically package the instructions to boot operating system kernel  most of them also have their own debugging or modification environment. As the boot-loader kicks off before any piece of software on your device, it makes it extremely processor specific  every motherboard has its own bootloader. </item>
+        <item> A locked or unlocked boot loader is what gives you access to root.Root is another big word in the Android community. If you root a device, it means you have super user access or administrator access to the operating system that runs on your phone. Root access of your Android device gives you the ability to flash ROMs.  </item>
+        <item>  Simply means something is preventing the phone from completing it's boot cycle  is stuck between the boot animation the unlock screen, creating a looped animation. This is often fixed by either reloading a NAndroid, or Reflashing a ROM from the xRecovery ClockworkMod Recovery Flashtool. </item>
+        <item> argon for a completely unrecoverable device, no more than a brick or paperweight </item>
+        <item> An Error or flaw in software that produces a failure or unexpected unwanted result. Typically created from incorrect code, this is why some ROMs are better  smoother running than others because developers have taken the time to input perfect code read put in a lot of hours  hard work </item>
+        <item> A single multicall binary that packages the functionality of most widely used standard Unix tools, BusyBox provides a fairly complete environment for any small or embedded system </item>
+        <item> A type of network communication between phones and carriers. GSM phones normally are included with SIM Cards that authorize them onto the network. CDMA have this authorization built in and do not need a sim card. </item>
+        <item> compressed caching is, in short, virtual swap, setting aside a certain percentage  of your RAM as  swap. Compcache compresses the data that would normally go to swap, then moves it back into RAM, and reverses the process when moving it out of the  swap. However, this is a classic space-time tradeoff. You effectively get more RAM from the compression, but it is slower than 'normal' RAM due to the CPU time required to compress and decompress the swapped pages.  </item>
+        <item> A recovery program that is often used to apply updates, ROMs, or create a back up or restore a backup file  </item>
+        <item> The virtual machine is register based, and it can run classes compiled by a Java language compiler that have been transformed into its native format using the  </item>
+        <item> A program cache area for the program Dalvik. Dalvik is a java based virtual machine that is the basis for running your programs </item>
+        <item>  Dalvik Debug Monitor Service, a GUI debugging application included with the SDK. It provides screen capture, log dump, and process examination capabilities. If you are developing in Eclipse using the ADT Plugin, DDMS is integrated into your development environment. </item>
+        <item>  A state when the CPU is off, display dark, device is waiting for external input. </item>
+        <item> Apk files have respective odexes that devs use to supposedly save space. Deodexing means you convert it back to a .dex file  put it back inside the apk. This allows you to easily replace files  </item>
+        <item>  An individual that creates, or alters a file in such a manner as to advance the program </item>
+        <item> A compiled visual resource that can be used as a background, title, or other part of the screen. A drawable is typically loaded into another UI element, for example as a background image. A drawable is not able to receive events, but does assign various other properties   </item>
+        <item>  To run or start a binary </item>
+        <item>  Protocol used to update the flash file system in Android devices from a host over USB. It allows flashing of unsigned partition images </item>
+        <item> The process of applying a firmware image or ROM to a device. It generally entails a very specific order of steps. Failing to complete any one of these steps properly may result in softhard bricking  </item>
+        <item>  a program technology that can be electrically erased reprogrammed  </item>
+        <item> Firmware over the air this normally refers to ROMs but can refer to radio firmware see OTA </item>
+        <item> The main component of Android operating system. </item>
+        <item> It is a bridge between applications  the actual data processing done at the hardware level.  </item>
+        <item>  A system embedded into the kernel to automatically change the current working CPU frequency depending on the workload.  </item>
+        <item> Android from 4.1 to 4.3 </item>
+        <item> Java Development Kit an SDK for the java platform. It is needed to run the Android SDK </item>
+        <item> Java Runtime Environment a collection of binarys and files to allow java software to execute.  </item>
+        <item> The process of creating a code based of someone  code.</item>
+        <item> Android 4.4 the newest android available  </item>
+        <item> a set of instructions for applications to use to function. A functioning camera lib would allow the camera to be used.  </item>
+        <item> A debugging tool built into Android devices that displays system logs as they occur. See Logcat.  </item>
+        <item>  An XML file that each application must define, to describe the application package name, version, components activities, intent filters, services, imported libraries, and describes the various activities, and so on. See The AndroidManifest.xml File for complete information.
+               Ninpatch patch  Ninepatch image
+               A rsizeable bitmap resource that can be used for backgrounds or other images on the device. </item>
+        <item> A file typically created in the custom recovery program, such as xRecovery, that is a carbon copy of whatever state your phone is in before a drastic change is made.   </item>
+        <item> Original Equipment Manufacturer, the people who actually put together electronic hardware. Also refers to any equipment original to the phone, or produced by the company for the phone  </item>
+        <item> Android provides OpenGL ES libraries that you can use for fast, complex 3D images. It is harder to use than a Canvas object, but better for 3D objects. The android.opengl and javax.microedition.khronos.opengles packages expose OpenGL ES functionality.  </item>
+        <item> A piece of software that is free to edit, use, distribute and share with no charge. </item>
+        <item>  Operating system, IE Windows Vista, LINUX or MAC or Android  </item>
+        <item> some other phone companies, uses to update Android phones. The new versions of Android are developed by Google   </item>
+        <item> Speeding up the CPU past the factory presets to achieve a faster </item>
+        <item> Could be one of three meanings: 1. Memory for the CPU to process processes. 2. Random Access Memory, a place where information can be used, executed from, modified, or deleted </item>
+        <item>  Its a dedicated Android partition, that has Recovery console installed. This is invisible during normal operation of the android device. </item>
+        <item> Read Only Memory, a program used to make changes to anything from the look of the home screen to icons to custom boot animation </item>
+        <item>  Common word associated with giving a user super user access to their phones programming  other various aspects that would normally not be possible, also known as  for iPhone Administrator Rights in Windows OS. </item>
+        <item> A shell usually implies an interface with a command syntax </item>
+        <item>  An embedded relational database management system contained in a relatively small 275 kB C programming library. It is multitasking concerning reads. Writes can be done only one at a time. It is a popular choice for local client storage on web browsers. It has many bindings to programming languages. It is arguably the most widely used database engine, as it is used today by several widespread browsers, operating systems, embedded systems among others </item>
+        <item> Simply means an unaltered state, such as when you first purchase your phone fromVerizon Your Service Provider or when you repair your phone using PC Companion or SE Update ServiceSEUS </item>
+        <item> Super user, or root permissions  </item>
+        <item>  A program, which gives unlimited access privileges to perform any or all operations on the operating system. </item>
+        <item> is, in short, virtual RAM. With swap, a small portion of the hard drive is set aside and used like RAM. The computer will attempt to keep as much information as possible in RAM until the RAM is full. At that point, the computer will begin moving inactive blocks of memory </item>
+        <item>A set of icons, backgrounds  app trays that change the aesthetics of the overall look of the Android  </item>
+        <item> Refers to a network , operates within layer 3 packets, or ip packets. Packets sent by a system via a  </item>
+        <item> Slowing down the CPU mainly to limit battery usage </item>
+        <item> Basically keeping the clock speed same or overclocking it reduce the voltage at each cpu cycle. </item>
+        <item> A recovery program based on the ClockworkMod Recovery sources used to apply updates, ROMs, or create a back up or restore a backup file </item>
+        <item> to clean your device memory,recommended before flashing </item>
+        <item>  Compiled Android application code file. Android programs are compiled into </item>
+        <item> Summation Briefcase File </item>
+        <item> An apk file extension denotes an Android Package  file, an apk file can be opened  inspected using common archive tools. Each Android application is compiled and packaged in a single file that includes all of the application code </item>
+        <item>Similar to a zip file a tar file archives multiple files into one file </item>
+        <item> are commonly used as install packages for Slackware Linux. </item>
+        <item>  </item>
+        <item>  </item>
+
+
+
+    </string-array>
+
+
+
+</resources>
